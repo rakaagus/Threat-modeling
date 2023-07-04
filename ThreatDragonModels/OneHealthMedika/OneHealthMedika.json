@@ -1,0 +1,16 @@
+{
+  "version": "2.0.3",
+  "summary": {
+    "title": "OneHealthMedika",
+    "owner": "Raka Agus Maulana",
+    "description": "PT.Medika tengah membuat sebuah sistem rumah sakit yang mana didalam sistem tersebut terdapat fitur: pendaftaran, pembayaran, dan konsultasi online. sistem ini diharapkan akan terintegrasi oleh data dari pemerintah. sistem ini akan berjalan melalui web maupun mobile aplikasi",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Stackholder PT.Medika",
+    "threatTop": 0
+  }
+}
