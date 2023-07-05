@@ -11,12 +11,12 @@
     "diagrams": [
       {
         "id": 0,
-        "title": "OneHealthMedikaDIagram",
+        "title": "Pendaftaran Pasien",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.0.3",
-        "description": "STRIDE for OneHealthMedika"
+        "description": "STRIDE for Pendaftaran"
       }
     ],
     "diagramTop": 1,
