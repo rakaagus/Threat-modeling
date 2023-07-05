@@ -21,7 +21,7 @@
           {
             "position": {
               "x": 120,
-              "y": 87.00000000000003
+              "y": 14.333333333333357
             },
             "size": {
               "width": 160,
@@ -54,8 +54,8 @@
           },
           {
             "position": {
-              "x": 590,
-              "y": 670
+              "x": 595,
+              "y": 600
             },
             "size": {
               "width": 140,
@@ -265,9 +265,12 @@
             },
             "vertices": [
               {
-                "x": 700,
-                "y": 620
+                "x": 705,
+                "y": 550
               }
+            ],
+            "labels": [
+              "Data Flow"
             ]
           },
           {
@@ -307,13 +310,16 @@
             },
             "vertices": [
               {
-                "x": 620,
-                "y": 560
+                "x": 625,
+                "y": 490
               },
               {
-                "x": 620,
-                "y": 600
+                "x": 625,
+                "y": 530
               }
+            ],
+            "labels": [
+              "Data Flow"
             ]
           },
           {
@@ -522,8 +528,8 @@
           },
           {
             "position": {
-              "x": 625,
-              "y": 390
+              "x": 630,
+              "y": 320
             },
             "size": {
               "width": 90,
@@ -556,8 +562,8 @@
           },
           {
             "position": {
-              "x": 658.75,
-              "y": 560
+              "x": 663.75,
+              "y": 490
             },
             "size": {
               "width": 112.5,
@@ -580,8 +586,8 @@
           },
           {
             "position": {
-              "x": 670,
-              "y": 302
+              "x": 675,
+              "y": 232
             },
             "size": {
               "width": 112.5,
@@ -604,8 +610,8 @@
           },
           {
             "position": {
-              "x": 573.75,
-              "y": 580
+              "x": 578.75,
+              "y": 510
             },
             "size": {
               "width": 112.5,
@@ -628,8 +634,8 @@
           },
           {
             "position": {
-              "x": 655,
-              "y": -187
+              "x": 640,
+              "y": -157
             },
             "size": {
               "width": 120,
@@ -716,8 +722,8 @@
           },
           {
             "position": {
-              "x": 557.5,
-              "y": 282
+              "x": 562.5,
+              "y": 212
             },
             "size": {
               "width": 112.5,
@@ -761,6 +767,40 @@
               "name": "response",
               "hasOpenThreats": false
             }
+          },
+          {
+            "position": {
+              "x": 120,
+              "y": 130
+            },
+            "size": {
+              "width": 160,
+              "height": 85.33333333333333
+            },
+            "attrs": {
+              "text": {
+                "text": "Employee"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "7988b960-9688-4029-a7a7-f5dc5f62c20a",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Employee",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "zIndex": 24
           }
         ]
       },
