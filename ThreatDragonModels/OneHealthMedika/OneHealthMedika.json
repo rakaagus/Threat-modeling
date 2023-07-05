@@ -20,12 +20,12 @@
         "cells": [
           {
             "position": {
-              "x": 210,
-              "y": 130
+              "x": 170,
+              "y": 117.33333333333334
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 160,
+              "height": 85.33333333333333
             },
             "attrs": {
               "text": {
@@ -54,8 +54,8 @@
           },
           {
             "position": {
-              "x": 740,
-              "y": 440
+              "x": 620,
+              "y": 500
             },
             "size": {
               "width": 112.5,
@@ -88,14 +88,17 @@
           },
           {
             "position": {
-              "x": 453,
-              "y": 130
+              "x": 440,
+              "y": 115
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 90,
+              "height": 90
             },
             "attrs": {
+              "text": {
+                "text": "Browser site \naccess"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -104,11 +107,11 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "3df4c92f-f0a4-41df-a0e4-9588147a77c2",
             "zIndex": 3,
+            "id": "3df4c92f-f0a4-41df-a0e4-9588147a77c2",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Browser site \naccess",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -159,40 +162,34 @@
           },
           {
             "position": {
-              "x": 236,
-              "y": 380
+              "x": 260,
+              "y": 310
             },
             "size": {
-              "width": 120,
-              "height": 60
+              "width": 110,
+              "height": 110
             },
             "attrs": {
               "text": {
-                "text": "Pemerintah Database"
+                "text": "API Government"
               },
-              "topLine": {
-                "strokeWidth": 1,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
+              "body": {
+                "stroke": "#333333",
                 "strokeWidth": 1,
                 "strokeDasharray": null
               }
             },
             "visible": true,
-            "shape": "store",
-            "id": "be8f337c-3d54-4efd-b7f8-2a32fa897e7d",
+            "shape": "process",
+            "id": "066e2ea9-e9b6-4a37-8e3a-8823b09ffe5e",
             "zIndex": 5,
             "data": {
-              "type": "tm.Store",
-              "name": "Pemerintah Database",
+              "type": "tm.Process",
+              "name": "API Government",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "isALog": false,
-              "storesCredentials": false,
-              "isEncrypted": false,
-              "isSigned": false,
+              "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
             }
