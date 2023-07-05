@@ -20,40 +20,6 @@
         "cells": [
           {
             "position": {
-              "x": 120,
-              "y": 14.333333333333357
-            },
-            "size": {
-              "width": 160,
-              "height": 85.33333333333333
-            },
-            "attrs": {
-              "text": {
-                "text": "Admin"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 1,
-            "id": "c0b1e77c-fbf4-42c7-a515-e3d4c8f8ab3a",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Admin",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "providesAuthentication": false,
-              "hasOpenThreats": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
               "x": 595,
               "y": 600
             },
@@ -291,7 +257,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Feedback",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -319,7 +285,7 @@
               }
             ],
             "labels": [
-              "Data Flow"
+              "Feedback"
             ]
           },
           {
@@ -575,6 +541,42 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "c666b64b-733c-4bd5-87ed-db55c29e7c6a",
+            "source": {
+              "cell": "7988b960-9688-4029-a7a7-f5dc5f62c20a"
+            },
+            "target": {
+              "cell": "3df4c92f-f0a4-41df-a0e4-9588147a77c2"
+            }
+          },
+          {
             "position": {
               "x": 630,
               "y": 320
@@ -653,30 +655,6 @@
             "data": {
               "type": "tm.Text",
               "name": "store data pantient",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 578.75,
-              "y": 510
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Feedback"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 16,
-            "id": "2c58f2a4-6a9c-4c61-a736-b3fa626045ad",
-            "data": {
-              "type": "tm.Text",
-              "name": "Feedback",
               "hasOpenThreats": false
             }
           },
@@ -818,8 +796,8 @@
           },
           {
             "position": {
-              "x": 120,
-              "y": 130
+              "x": 60,
+              "y": 87.00000000000003
             },
             "size": {
               "width": 160,
