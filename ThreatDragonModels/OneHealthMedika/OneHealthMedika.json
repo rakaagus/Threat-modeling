@@ -212,7 +212,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Use registration tools",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -223,6 +223,9 @@
               "threats": []
             },
             "id": "b97c030a-ec7e-45f4-817b-1dbdb3d036e9",
+            "labels": [
+              "Use registration tools"
+            ],
             "source": {
               "cell": "b3fc2eb0-8e3d-404b-9fbf-891e9232d6eb"
             },
@@ -234,9 +237,6 @@
                 "x": 705,
                 "y": 550
               }
-            ],
-            "labels": [
-              "Data Flow"
             ]
           },
           {
@@ -268,6 +268,9 @@
               "threats": []
             },
             "id": "1ab71ec7-76f6-48cc-bf52-ff3a3ac7e0a6",
+            "labels": [
+              "Feedback"
+            ],
             "source": {
               "cell": "c4710e20-741e-4fd5-85e7-2f95d7b778ef"
             },
@@ -276,16 +279,13 @@
             },
             "vertices": [
               {
-                "x": 625,
+                "x": 590,
                 "y": 490
               },
               {
-                "x": 625,
-                "y": 530
+                "x": 590,
+                "y": 540
               }
-            ],
-            "labels": [
-              "Feedback"
             ]
           },
           {
@@ -612,30 +612,6 @@
           },
           {
             "position": {
-              "x": 663.75,
-              "y": 490
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Use registration tools"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 12,
-            "id": "287d39da-0531-418e-9533-c534a063065c",
-            "data": {
-              "type": "tm.Text",
-              "name": "Use registration tools",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
               "x": 691.25,
               "y": 242
             },
@@ -815,6 +791,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 24,
             "id": "7988b960-9688-4029-a7a7-f5dc5f62c20a",
             "data": {
               "type": "tm.Actor",
@@ -825,8 +802,7 @@
               "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
-            },
-            "zIndex": 24
+            }
           },
           {
             "position": {
@@ -844,13 +820,13 @@
             },
             "visible": true,
             "shape": "td-text-block",
+            "zIndex": 25,
             "id": "882c0063-8441-41b0-a57a-4c1822f4954b",
             "data": {
               "type": "tm.Text",
               "name": "query get",
               "hasOpenThreats": false
-            },
-            "zIndex": 25
+            }
           }
         ]
       },
