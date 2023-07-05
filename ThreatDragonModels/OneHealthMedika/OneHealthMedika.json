@@ -39,8 +39,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "c0b1e77c-fbf4-42c7-a515-e3d4c8f8ab3a",
             "zIndex": 1,
+            "id": "c0b1e77c-fbf4-42c7-a515-e3d4c8f8ab3a",
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
@@ -54,8 +54,8 @@
           },
           {
             "position": {
-              "x": 430,
-              "y": 200
+              "x": 740,
+              "y": 440
             },
             "size": {
               "width": 112.5,
@@ -73,8 +73,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "b3fc2eb0-8e3d-404b-9fbf-891e9232d6eb",
             "zIndex": 2,
+            "id": "b3fc2eb0-8e3d-404b-9fbf-891e9232d6eb",
             "data": {
               "type": "tm.Actor",
               "name": "Pasien",
@@ -82,6 +82,117 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 453,
+              "y": 130
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "3df4c92f-f0a4-41df-a0e4-9588147a77c2",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 900,
+              "y": 130
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "OneHealthMedika Database"
+              },
+              "topLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "661ab806-ab87-40d9-a298-e3318a2b64e0",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "OneHealthMedika Database",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 236,
+              "y": 380
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Pemerintah Database"
+              },
+              "topLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "be8f337c-3d54-4efd-b7f8-2a32fa897e7d",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Store",
+              "name": "Pemerintah Database",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "isALog": false,
+              "storesCredentials": false,
+              "isEncrypted": false,
+              "isSigned": false,
               "hasOpenThreats": false,
               "threats": []
             }
