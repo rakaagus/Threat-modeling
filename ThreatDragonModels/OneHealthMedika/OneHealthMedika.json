@@ -54,8 +54,8 @@
           },
           {
             "position": {
-              "x": 600,
-              "y": 730
+              "x": 590,
+              "y": 670
             },
             "size": {
               "width": 140,
@@ -307,8 +307,12 @@
             },
             "vertices": [
               {
-                "x": 590,
-                "y": 640
+                "x": 620,
+                "y": 560
+              },
+              {
+                "x": 620,
+                "y": 600
               }
             ]
           },
@@ -552,8 +556,8 @@
           },
           {
             "position": {
-              "x": 647.5,
-              "y": 630
+              "x": 658.75,
+              "y": 560
             },
             "size": {
               "width": 112.5,
@@ -600,8 +604,8 @@
           },
           {
             "position": {
-              "x": 550,
-              "y": 610
+              "x": 573.75,
+              "y": 580
             },
             "size": {
               "width": 112.5,
@@ -726,8 +730,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "86f07450-234f-4f01-94fb-91a544c25711",
             "zIndex": 22,
+            "id": "86f07450-234f-4f01-94fb-91a544c25711",
             "data": {
               "type": "tm.Text",
               "name": "feedback for \nregistration tools",
@@ -750,8 +754,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "25dfdc89-2653-4281-8d3c-4c1dd385451e",
             "zIndex": 23,
+            "id": "25dfdc89-2653-4281-8d3c-4c1dd385451e",
             "data": {
               "type": "tm.Text",
               "name": "response",
