@@ -20,8 +20,8 @@
         "cells": [
           {
             "position": {
-              "x": 595,
-              "y": 600
+              "x": 605,
+              "y": 530
             },
             "size": {
               "width": 140,
@@ -178,51 +178,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Use registration tools",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "b97c030a-ec7e-45f4-817b-1dbdb3d036e9",
-            "labels": [
-              "Use registration tools"
-            ],
-            "source": {
-              "cell": "b3fc2eb0-8e3d-404b-9fbf-891e9232d6eb"
-            },
-            "target": {
-              "cell": "c4710e20-741e-4fd5-85e7-2f95d7b778ef"
-            },
-            "vertices": [
-              {
-                "x": 705,
-                "y": 550
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Feedback",
               "description": "",
               "outOfScope": false,
@@ -246,11 +201,11 @@
             "vertices": [
               {
                 "x": 590,
-                "y": 490
+                "y": 470
               },
               {
-                "x": 590,
-                "y": 540
+                "x": 610,
+                "y": 500
               }
             ]
           },
@@ -292,7 +247,7 @@
             "vertices": [
               {
                 "x": 740,
-                "y": 270
+                "y": 250
               }
             ]
           },
@@ -417,8 +372,8 @@
             },
             "vertices": [
               {
-                "x": 610,
-                "y": 290
+                "x": 620,
+                "y": 250
               }
             ]
           },
@@ -669,9 +624,54 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Use registration tools",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "b97c030a-ec7e-45f4-817b-1dbdb3d036e9",
+            "labels": [
+              "Use registration tools"
+            ],
+            "source": {
+              "cell": "b3fc2eb0-8e3d-404b-9fbf-891e9232d6eb"
+            },
+            "target": {
+              "cell": "c4710e20-741e-4fd5-85e7-2f95d7b778ef"
+            },
+            "vertices": [
+              {
+                "x": 740,
+                "y": 470
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 630,
-              "y": 320
+              "x": 640,
+              "y": 290
             },
             "size": {
               "width": 90,
@@ -705,7 +705,7 @@
           {
             "position": {
               "x": 691.25,
-              "y": 242
+              "y": 230
             },
             "size": {
               "width": 112.5,
