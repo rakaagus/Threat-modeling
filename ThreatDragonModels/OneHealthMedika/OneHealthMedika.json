@@ -17,9 +17,27 @@
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.0.3",
         "description": "STRIDE for Pendaftaran"
+      },
+      {
+        "id": 1,
+        "title": "Pembayaran obat",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.3",
+        "description": "STRIDE for Pembayaran"
+      },
+      {
+        "id": 2,
+        "title": "Konsultasi online",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.3",
+        "description": "STRIDE for Konsultasi Online"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 3,
     "reviewer": "Tubagus Rizky Dharmawan, S.T., M.Sc.",
     "threatTop": 0
   }
