@@ -54,8 +54,8 @@
           },
           {
             "position": {
-              "x": 585,
-              "y": 590
+              "x": 595,
+              "y": 670
             },
             "size": {
               "width": 140,
@@ -63,7 +63,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Pasien"
+                "text": "Patient"
               },
               "body": {
                 "stroke": "#333333",
@@ -77,7 +77,7 @@
             "id": "b3fc2eb0-8e3d-404b-9fbf-891e9232d6eb",
             "data": {
               "type": "tm.Actor",
-              "name": "Pasien",
+              "name": "Patient",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -326,12 +326,46 @@
             },
             "id": "b97c030a-ec7e-45f4-817b-1dbdb3d036e9",
             "source": {
-              "x": 1000,
-              "y": 510
+              "cell": "b3fc2eb0-8e3d-404b-9fbf-891e9232d6eb"
             },
             "target": {
-              "x": 1100,
-              "y": 610
+              "cell": "c4710e20-741e-4fd5-85e7-2f95d7b778ef"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "52a9a60c-870e-4104-bc3c-b8205aaafaba",
+            "source": {
+              "cell": "c4710e20-741e-4fd5-85e7-2f95d7b778ef"
+            },
+            "target": {
+              "cell": "94f1a972-0aa6-4eb6-b9e4-5c8065cb43b5"
             }
           },
           {
@@ -366,6 +400,30 @@
               "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 730,
+              "y": 490
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Use registration tools"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "287d39da-0531-418e-9533-c534a063065c",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Text",
+              "name": "Use registration tools",
+              "hasOpenThreats": false
             }
           }
         ]
