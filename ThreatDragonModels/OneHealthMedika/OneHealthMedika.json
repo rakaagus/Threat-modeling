@@ -128,8 +128,8 @@
           },
           {
             "position": {
-              "x": 510,
-              "y": 89.66666666666669
+              "x": 430,
+              "y": 84.66666666666669
             },
             "size": {
               "width": 90,
@@ -507,6 +507,79 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "bc207646-1f13-4823-9037-596c962add06",
+            "source": {
+              "cell": "7988b960-9688-4029-a7a7-f5dc5f62c20a"
+            },
+            "target": {
+              "cell": "94f1a972-0aa6-4eb6-b9e4-5c8065cb43b5"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "9208337f-4c60-49b3-ba5d-33ab358f9a27",
+            "source": {
+              "cell": "94f1a972-0aa6-4eb6-b9e4-5c8065cb43b5"
+            },
+            "target": {
+              "cell": "87bbcd04-0e93-4e54-926b-206b46297063"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 630,
               "y": 320
@@ -702,7 +775,7 @@
           },
           {
             "position": {
-              "x": 20,
+              "x": 100,
               "y": 87.00000000000003
             },
             "size": {
@@ -760,8 +833,8 @@
           },
           {
             "position": {
-              "x": 220,
-              "y": 60
+              "x": 290,
+              "y": 70
             },
             "size": {
               "width": 112.5,
@@ -781,6 +854,30 @@
               "name": "Dashboard Access req",
               "hasOpenThreats": false
             }
+          },
+          {
+            "position": {
+              "x": 537.5,
+              "y": 70
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Web req"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "331a8c9c-890c-4497-9fb2-fa28cbd6a1f8",
+            "data": {
+              "type": "tm.Text",
+              "name": "Web req",
+              "hasOpenThreats": false
+            },
+            "zIndex": 27
           }
         ]
       },
