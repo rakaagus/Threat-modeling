@@ -55,7 +55,7 @@
           {
             "position": {
               "x": 590,
-              "y": 500.00000000000006
+              "y": 560
             },
             "size": {
               "width": 140,
@@ -230,16 +230,16 @@
           },
           {
             "position": {
-              "x": 615,
-              "y": 315
+              "x": 555,
+              "y": 400
             },
             "size": {
-              "width": 90,
-              "height": 90
+              "width": 80,
+              "height": 80
             },
             "attrs": {
               "text": {
-                "text": "Mobile App\nsistem"
+                "text": "Mobile App\nsystem"
               },
               "body": {
                 "stroke": "#333333",
@@ -249,11 +249,11 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "ee26fa9a-9054-491c-9053-dda58746ddfc",
             "zIndex": 7,
+            "id": "ee26fa9a-9054-491c-9053-dda58746ddfc",
             "data": {
               "type": "tm.Process",
-              "name": "Mobile App\nsistem",
+              "name": "Mobile App\nsystem",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -304,8 +304,8 @@
           },
           {
             "position": {
-              "x": 620,
-              "y": 117.33333333333334
+              "x": 670,
+              "y": 400
             },
             "size": {
               "width": 80,
@@ -323,8 +323,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "94f1a972-0aa6-4eb6-b9e4-5c8065cb43b5",
             "zIndex": 9,
+            "id": "94f1a972-0aa6-4eb6-b9e4-5c8065cb43b5",
             "data": {
               "type": "tm.Process",
               "name": "Web App\nSystem",
