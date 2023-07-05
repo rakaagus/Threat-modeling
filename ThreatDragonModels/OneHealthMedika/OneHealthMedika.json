@@ -162,8 +162,8 @@
           },
           {
             "position": {
-              "x": 230,
-              "y": 420
+              "x": 625,
+              "y": -25
             },
             "size": {
               "width": 80,
@@ -230,8 +230,8 @@
           },
           {
             "position": {
-              "x": 560,
-              "y": 410
+              "x": 280,
+              "y": 290
             },
             "size": {
               "width": 80,
@@ -264,8 +264,8 @@
           },
           {
             "position": {
-              "x": 670,
-              "y": 400
+              "x": 625,
+              "y": 260
             },
             "size": {
               "width": 80,
@@ -332,6 +332,40 @@
             "target": {
               "x": 1100,
               "y": 610
+            }
+          },
+          {
+            "position": {
+              "x": 625,
+              "y": 430
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "registration \ntool"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "c4710e20-741e-4fd5-85e7-2f95d7b778ef",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "registration \ntool",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
             }
           }
         ]
